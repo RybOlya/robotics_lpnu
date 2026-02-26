@@ -1,0 +1,20 @@
+<package format="3">
+  <name>mobile_robot_lab</name>
+  <version>0.1.0</version>
+  <description>1-hour lab: control a mobile robot in Gazebo with ROS2 cmd_vel, execute square/triangle, visualize path in RViz2.</description>
+
+  <maintainer email="instructor@university.edu">Instructor</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+
+</package>
