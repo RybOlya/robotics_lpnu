@@ -56,6 +56,7 @@ code .
 |-----|-------|
 | **[Lab 1](lab1/README.md)** | Building a Robot in Gazebo | 2 sessions | Follow Gazebo tutorials to build a mobile robot with sensors |
 | **[Lab 2](lab2/README.md)** | ROS2 Integration | 2 sessions | Create ROS2 nodes, control the robot, visualize sensor data |
+| **[Lab 3](lab3/mobile_robot_lab/README.md)** | ROS2 mobile Robot | 2 sessions | Build a simulation of a mobile robot navigating in patterns |
 
 ### Development Workflow
 

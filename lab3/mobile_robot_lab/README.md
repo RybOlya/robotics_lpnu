@@ -122,7 +122,6 @@ You should now be inside the container shell, with `/ros2_ws` mounted.
 # 3) Build the ROS2 workspace (inside container)
 
 ```bash
-cd /ros2_ws
 colcon build
 source install/setup.bash
 ```
@@ -146,7 +145,12 @@ This starts:
 
 # 5) Verify topics (inside container)
 
-Open a **second terminal** in the container (or use another shell tab), then:
+Open a **second terminal** in the container (or use another shell tab) ie:
+```bash
+docker exec -it ros2_mobile_robot_lab_container bash
+```
+
+then:
 
 ```bash
 source /ros2_ws/install/setup.bash
