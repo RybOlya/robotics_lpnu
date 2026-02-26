@@ -11,6 +11,5 @@ docker run -it --rm \
   -e DISPLAY=$DISPLAY \
   -e QT_X11_NO_MITSHM=1 \
   -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-  --device=/dev/dri:/dev/dri \
   -v "$(pwd)/ros2_ws:/ros2_ws" \
   "${IMAGE}"
