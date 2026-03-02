@@ -6,18 +6,22 @@
 - Odometry feedback for path following
 - RViz2 trajectory visualization
 
-**Further reading:** [Calculating Wheel Odometry for a Differential Drive Robot](https://automaticaddison.com/calculating-wheel-odometry-for-a-differential-drive-robot/).
+**Further reading:** 
+
+[Calculating Wheel Odometry for a Differential Drive Robot](https://automaticaddison.com/calculating-wheel-odometry-for-a-differential-drive-robot/).
+
+[Wheel Odometry Model for Differential Drive Robotics](https://medium.com/@nahmed3536/wheel-odometry-model-for-differential-drive-robotics-91b85a012299)
 
 ---
 
 ## Setup
+**Copy your `robot.sdf` from previous labs to the `worlds` folder, then:**
 
 ```bash
 cd /opt/ws
 colcon build --packages-select lab3
 source install/setup.bash
 ```
-
 ---
 
 ## Launch Options
