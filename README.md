@@ -59,6 +59,7 @@ code .
 | **[Lab 3](lab3/README.md)** | Moving Mobile Robots in Simulation | Differential drive kinematics, geometric paths. You also need to run the TurtleBot3 setup - will be used in the next lab. |
 | **[Lab 4](lab4/README.md)** | Dead Reckoning | Integrate velocity commands, compare with Gazebo odometry. Runs with lab3 circle trajectory. |
 | **[Lab 5](lab5/README.md)** | Obstacle Avoidance | Potential fields, Bug, DWA, or RL. TurtleBot3 in maze/forest. |
+| **[Lab 6](lab6/README.md)** | Motion Planning (Nav2) | Nav2 with static map: global/local planners, TurtleBot3 in Gazebo. |
 
 ### Development Workflow
 

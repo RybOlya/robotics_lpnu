@@ -73,6 +73,7 @@ RUN apt update && apt install -y --no-install-recommends \
     ros-${ROS_DISTRO}-demo-nodes-py \
     ros-${ROS_DISTRO}-turtlebot3 \
     ros-${ROS_DISTRO}-turtlebot3-simulations \
+    ros-${ROS_DISTRO}-nav2-bringup \
     && rm -rf /var/lib/apt/lists/*
 
 # install packages
