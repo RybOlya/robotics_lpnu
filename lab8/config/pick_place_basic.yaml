@@ -1,0 +1,7 @@
+waypoints:
+  - name: open
+    joints: [0.0, -0.5, 0.5, 1.0, 0.5, 1.0]
+    hold_sec: 1.0
+  - name: grasp
+    joints: [0.0, -0.5, 0.5, 1.0, 0.5, 0.0]
+    hold_sec: 1.0

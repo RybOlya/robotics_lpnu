@@ -61,6 +61,7 @@ code .
 | **[Lab 5](lab5/README.md)** | Obstacle Avoidance | Potential fields, Bug, DWA, or RL. TurtleBot3 in maze/forest. |
 | **[Lab 6](lab6/README.md)** | Motion Planning (Nav2) | Nav2 with static map: global/local planners, TurtleBot3 in Gazebo. |
 | **[Lab 7](lab7/README.md)** | TF2 & URDF (RTR arm) | tf2 broadcaster/listener, URDF/Xacro RTR model, joint_state_broadcaster vs sliders. |
+| **[Lab 8](lab8/README.md)** | SO-101 real arm bringup | RViz + controllers + real hardware launch wrapper for SO-101. |
 
 ### Development Workflow
 
@@ -123,6 +124,11 @@ robotics_lpnu/
 │   ├── lab7/                      # Python nodes (demos, kinematics)
 │   ├── urdf/                      # rtr_manipulator.xacro
 │   ├── launch/                    # visualize + ros2_control
+│   └── README.md
+├── lab8/                          # Lab 8: SO-101 real robot bringup
+│   ├── lab8/                      # Python command-line nodes
+│   ├── launch/                    # real bringup and dual-student launches
+│   ├── config/                    # topic reference
 │   └── README.md
 ├── docs/                          
 │   └── INSTALLATION_GUIDE.md      # OS setup guide
